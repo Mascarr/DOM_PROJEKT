@@ -1,0 +1,101 @@
+/* Stil för header */
+#header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1vw;
+  }
+  
+  /* Stil för vibes-text */
+  #vibes {
+  display: none;
+  font-size: 2vw;
+  }
+  
+  /* Stil för tids-text */
+  #time {
+  font-size: 1.25vw;
+  }
+  
+  /* Stil för bild */
+  #image {
+  width: 10%;
+  max-width: 100px; /* Lade till en maximal bredd för att säkerställa responsivitet */
+  }
+  
+  /* Centrerar knapparna */
+  #button-alignment {
+  display: flex;
+  justify-content: center;
+  }
+  
+  /* Bakgrund för knapparna */
+  #button-background {
+  background-image: linear-gradient(144deg, #020003, #0b0534 50%, #107e86);
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%; /* Ändrad till 100% för att anpassa sig till olika skärmstorlekar */
+  max-width: 600px; /* Lade till en maximal bredd för att begränsa knappstorlek på större skärmar */
+  height: auto; /* Ändrad till auto för att anpassa sig till knappinnehållets höjd */
+  }
+  
+  /* Stil för knappkolumner */
+  .rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 1;
+  }
+  
+  /* Anpassad knappstil */
+  button {
+  padding: 1.3em 2.5em;
+  font-size: 1.2vw; /* Ändrad till en relativ fontstorlek */
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(109, 74, 3, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 33.33%;
+  height: auto; /* Ändrad till auto för att anpassa sig till knappinnehållets höjd */
+  }
+  
+  /* Hover-effekt för knappar */
+  button:hover {
+  background-color: orange;
+  box-shadow: 0px 15px 20px rgba(255, 165, 0, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+  }
+  
+  /* Aktiverad-effekt för knappar */
+  button:active {
+  transform: translateY(-1px);
+  }
+  
+  /* Justering av tack-meddelande */
+  #thanks-alignment {
+  display: flex;
+  justify-content: center;
+  }
+  
+  /* Stil för tack-meddelande */
+  #thanks {
+  color: goldenrod;
+  font-size: 1.5vw;
+  }
